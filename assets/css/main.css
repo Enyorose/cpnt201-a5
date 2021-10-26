@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+/* @font-face {
+  font-family: 'Roboto';
+  src: local('Roboto') url(assets/fonts/Roboto-Regular.ttf) format('ttf');
+} */
+@tailwind utilities;
+
+.fun-header{
+  @apply container text-center mt-3 m-auto font-bold text-xl bg-yellow-200 w-1/5 font-sans cursor-pointer hover:bg-green-300;
+}
